@@ -83,3 +83,4 @@ if __name__ == '__main__':
     print(query3_title)
     result = get_query(connection, query3)
     print_query(result, '%  errors')
+    db_disconnect(connection)
